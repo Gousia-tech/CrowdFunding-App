@@ -2,11 +2,14 @@
 
 SmileDonors is a full-stack crowdfunding platform designed to connect compassionate donors with registered orphanages. Built using a microservices architecture, this platform enables secure donations, orphanage discovery, and seamless user experiences for both organizations and donors.
 
+![Donate Banner](https://www.fbd.org/fileadmin/_processed_/8/d/csm_donate-money-banner_123456.jpg)
+
+
 ## 🛠 Tech Stack
 
 ### Backend
 - **Java**, **Spring Boot**
-- **MongoDB** for Donor/Organization data
+- **H2 DB** for Donor/Organization data
 - **JWT** Authentication & Role-based Authorization
 - **Microservices**: Auth/Login Service, Organization Service, Razorpay Payment Service
 
