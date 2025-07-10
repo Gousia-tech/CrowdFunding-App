@@ -2,7 +2,7 @@
 
 SmileDonors is a full-stack crowdfunding platform designed to connect compassionate donors with registered orphanages. Built using a microservices architecture, this platform enables secure donations, orphanage discovery, and seamless user experiences for both organizations and donors.
 
-![Donation Banner](https://www.alamy.com/crowdfunding-campaign-advertising-consulting-promotion-symbols-flat-banner-website-home-page-design-with-donate-button-vector-illustration-image568303835.html)
+![logo](https://github.com/Gousia-tech/CrowdFunding-App/blob/main/public/Assets/logonew2.png)
 
 
 
