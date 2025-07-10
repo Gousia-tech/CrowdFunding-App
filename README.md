@@ -37,7 +37,7 @@ SmileDonors is a full-stack crowdfunding platform designed to connect compassion
 ### Prerequisites
 - Java 17+
 - Node.js + npm
-- MongoDB (local or cloud)
+- MongoDB (local or cloud) / H2 Database
 - IDEs (VSCode + IntelliJ recommended)
 
 ### Backend Setup
