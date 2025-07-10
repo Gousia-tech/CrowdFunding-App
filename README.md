@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# SmileDonors - Crowdfunding Platform for Orphanages 🤝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SmileDonors is a full-stack crowdfunding platform designed to connect compassionate donors with registered orphanages. Built using a microservices architecture, this platform enables secure donations, orphanage discovery, and seamless user experiences for both organizations and donors.
 
-## Available Scripts
+## 🛠 Tech Stack
 
-In the project directory, you can run:
+### Backend
+- **Java**, **Spring Boot**
+- **MongoDB** for Donor/Organization data
+- **JWT** Authentication & Role-based Authorization
+- **Microservices**: Auth/Login Service, Organization Service, Razorpay Payment Service
 
-### `npm start`
+### Frontend
+- **React.js** with responsive UI
+- **Axios** for API communication
+- **Tailwind CSS** / Custom styling for clean, intuitive design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Payment
+- **Razorpay Integration** for real-time secure transactions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔒 Donor & Organization Registration/Login (JWT secured)
+- 📬 Email-based donor/organization profile management
+- 🧾 Donor Reviews & Ratings for orphanages
+- 💳 Razorpay-based donation gateway
+- 🏠 Organization profiles with orphanage details and donation status
+- 📊 Dashboard-like UI for donors and organizations
+- 🔄 Microservice communication using `RestTemplate` and HTTP APIs
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Java 17+
+- Node.js + npm
+- MongoDB (local or cloud)
+- IDEs (VSCode + IntelliJ recommended)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Backend Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/SmileDonors.git
+   cd SmileDonors
